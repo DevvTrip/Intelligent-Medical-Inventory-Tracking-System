@@ -1,0 +1,29 @@
+Type,ID,Code,Name,UnitPrice,ReorderLevel,SupplierId,Description,Extra1,Extra2,BatchNum,Quantity,MfgDate,ExpDate
+TABLET,M-01,MED-001,Paracetamol 650mg,30.00,50,SUP-001,Antipyretic & Analgesic for fever and pain,15,false,B-PCM-101,120,2026-07-09,2028-04-09
+TABLET,M-02,MED-002,Ibuprofen 400mg,45.00,30,SUP-001,NSAID pain reliever and anti-inflammatory,10,false,B-IBU-201,80,2026-04-09,2027-10-09
+TABLET,M-03,MED-003,Cetirizine 10mg,25.00,40,SUP-002,Antihistamine for allergy and cold symptoms,10,false,B-CET-301,15,2025-12-09,2027-06-09
+TABLET,M-04,MED-004,Metformin 500mg,55.00,50,SUP-003,First-line oral antidiabetic medicine,20,false,B-MET-401,200,2026-06-09,2028-06-09
+TABLET,M-05,MED-005,Amlodipine 5mg,42.00,35,SUP-003,Calcium channel blocker for hypertension,15,false,B-AML-501,90,2026-05-09,2027-12-09
+TABLET,M-06,MED-006,Pantoprazole 40mg,85.00,40,SUP-002,Proton-pump inhibitor for acid reflux/GERD,10,false,B-PAN-601,150,2026-08-09,2028-08-09
+TABLET,M-07,MED-007,Vitamin C 500mg Chewable,60.00,60,SUP-004,Immunity booster chewable tablet,20,true,B-VTC-701,25,2026-02-09,2026-10-24
+TABLET,M-08,MED-008,Aspirin 75mg Low Dose,22.00,45,SUP-001,Blood thinner and cardiovascular protection,14,false,B-ASP-801,110,2026-03-09,2027-09-09
+ANTIBIOTIC,M-09,MED-009,Amoxicillin 500mg,110.00,35,SUP-001,Broad-spectrum beta-lactam antibiotic,Broad-Spectrum,true,B-AMX-901,95,2026-05-09,2027-08-09
+ANTIBIOTIC,M-10,MED-100,Azithromycin 500mg,130.00,25,SUP-002,Macrolide antibiotic for respiratory infections,Broad-Spectrum,true,B-AZI-101,12,2026-01-09,2027-07-09
+ANTIBIOTIC,M-11,MED-101,Ciprofloxacin 500mg,95.00,30,SUP-003,Fluoroquinolone antibiotic for bacterial infections,Broad-Spectrum,true,B-CIP-111,75,2026-06-09,2028-02-09
+ANTIBIOTIC,M-12,MED-102,Doxycycline 100mg,75.00,20,SUP-004,Tetracycline class antibiotic for skin & tick infections,Broad-Spectrum,true,B-DOX-121,40,2025-11-09,2026-10-29
+ANTIBIOTIC,M-13,MED-103,Cephalexin 500mg,140.00,25,SUP-002,First-generation cephalosporin antibiotic,Narrow-Spectrum,true,B-CEP-131,50,2025-08-09,2026-10-04
+SYRUP,M-14,MED-104,Cough Relief Syrup,85.00,30,SUP-001,Expectorant and decongestant cough formula,100,true,B-CSY-141,85,2026-07-09,2028-01-09
+SYRUP,M-15,MED-105,Paracetamol Paediatric 120mg,45.00,40,SUP-001,Child fever suspension with pleasant strawberry taste,60,true,B-PP-151,60,2026-08-09,2028-04-09
+SYRUP,M-16,MED-106,Antacid Mint Suspension,90.00,35,SUP-002,Liquid antacid with magnesium and aluminum hydroxides,200,false,B-ANT-161,18,2026-04-09,2027-08-09
+SYRUP,M-17,MED-107,Multivitamin Iron Syrup,125.00,25,SUP-004,Nutritional tonic for hemoglobin and energy,200,true,B-MVI-171,45,2026-05-09,2027-11-09
+SYRUP,M-18,MED-108,Bromhexine Mucolytic Syrup,70.00,20,SUP-003,Thins mucus in chest congestion,100,true,B-BRM-181,30,2025-12-09,2026-10-19
+INJECTION,M-19,MED-109,Insulin Human Regular 100IU,320.00,40,SUP-003,Fast-acting recombinant human insulin,Vial,true,B-INS-191,65,2026-08-09,2027-06-09
+INJECTION,M-20,MED-110,Tetanus Toxoid 0.5ml,35.00,50,SUP-001,Vaccine injection preventing tetanus infection,Ampoule,true,B-TT-201,140,2026-07-09,2028-10-09
+INJECTION,M-21,MED-111,Adrenaline 1mg/ml Emergency,80.00,30,SUP-002,Emergency epinephrine for anaphylaxis and cardiac arrest,Ampoule,false,B-ADR-211,8,2026-03-09,2027-04-09
+INJECTION,M-22,MED-112,Ceftriaxone 1g IV/IM,150.00,35,SUP-004,Third-generation cephalosporin injectable antibiotic,Vial,false,B-CTX-221,70,2026-06-09,2027-12-09
+INJECTION,M-23,MED-113,Diclofenac Sodium 75mg/3ml,45.00,40,SUP-001,Injectable NSAID for severe post-operative pain,Ampoule,false,B-DIC-231,55,2025-10-09,2026-09-19
+INJECTION,M-24,MED-114,Heparin Sodium 5000IU/ml,280.00,20,SUP-003,Anticoagulant injection preventing deep vein thrombosis,Vial,false,B-HEP-241,35,2026-05-09,2028-01-09
+OINTMENT,M-25,MED-115,Betamethasone 0.1% Cream,65.00,30,SUP-002,Topical corticosteroid for eczema and dermatitis,20.0,Cream,B-BET-251,50,2026-06-09,2028-02-09
+OINTMENT,M-26,MED-116,Mupirocin 2% Ointment,115.00,25,SUP-003,Antibacterial ointment for impetigo and skin cuts,15.0,Ointment,B-MUP-261,6,2026-02-09,2027-05-09
+OINTMENT,M-27,MED-117,Diclofenac Pain Relief Gel,75.00,35,SUP-004,Topical pain relieving gel for joint and muscle aches,30.0,Gel,B-DFG-271,40,2026-01-09,2026-11-03
+OINTMENT,M-28,MED-118,Silver Sulfadiazine 1% Burn Cream,95.00,20,SUP-001,Topical antimicrobial for prevention of burn wound sepsis,50.0,Cream,B-SSD-281,32,2026-07-09,2028-05-09
