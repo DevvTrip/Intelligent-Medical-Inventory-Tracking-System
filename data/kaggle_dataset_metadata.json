@@ -1,0 +1,55 @@
+{
+  "dataset_title": "A-Z Medicine Dataset of India",
+  "author": "Shudhanshu Singh",
+  "source_url": "https://www.kaggle.com/datasets/shudhanshusingh/az-medicine-dataset-of-india",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "derived_dataset_license": "CC BY-SA 4.0",
+  "attribution": "Derived from A-Z Medicine Dataset of India by Shudhanshu Singh on Kaggle, CC BY-SA 4.0.",
+  "downloaded_on": "2026-10-27",
+  "source_price_reference_date": "November 2022 (according to the dataset description); not current prices",
+  "original_csv": "A_Z_medicines_dataset_of_India.csv",
+  "original_record_count": 253973,
+  "archive_sha256": "b28b701cc5f8fcd3add2a57a0c478f19f22fe4beee83f5723e58ed87fc43fc39",
+  "imported_record_count": 500,
+  "type_counts": {
+    "Tablet": 250,
+    "Syrup": 125,
+    "Injection": 125
+  },
+  "source_subset_file": "kaggle_source_500.csv",
+  "inventory_file": "medicines.csv",
+  "source_fields_used": [
+    "name",
+    "price(\u20b9)",
+    "pack_size_label",
+    "short_composition1"
+  ],
+  "generated_demo_fields": [
+    "id",
+    "qty",
+    "expiry",
+    "threshold",
+    "supplierName",
+    "supplierPhone"
+  ],
+  "field_mapping": {
+    "type": "Inferred from medicine-name keywords; source type is allopathy, not dosage form.",
+    "extra": "Tablet: source tablets per pack; Syrup: source bottle ml; Injection: integer mg strength from name or single composition.",
+    "manufacturer_name": "Preserved in the source subset, not treated as a real inventory supplier.",
+    "inventory_id": "Local numeric IDs 101-600; source_subset.inventory_id maps back to the original Kaggle id."
+  },
+  "changes": [
+    "Selected 500 distinct names across tablets, syrups and injections, excluding entries marked discontinued at source snapshot time.",
+    "Kept only positive finite source prices and products with a supported integer pack-size/strength field.",
+    "Normalized inventory names to ASCII and removed CSV commas/newlines; original names remain in the source subset.",
+    "Generated reproducible demo inventory values with seed 24 and reference date 2026-10-27.",
+    "The existing Java subclasses add demonstration packaging charges to the source base prices when displaying prices."
+  ],
+  "demo_counts_at_import": {
+    "expired": 50,
+    "expiring_within_30_days": 100,
+    "low_stock_not_expired": 100
+  },
+  "usage_note": "Educational inventory demo only. Stock, expiry and supplier records are invented, not real batch data. Not for clinical decisions or actual dispensing."
+}

@@ -1,29 +1,501 @@
-Type,ID,Code,Name,UnitPrice,ReorderLevel,SupplierId,Description,Extra1,Extra2,BatchNum,Quantity,MfgDate,ExpDate
-TABLET,M-01,MED-001,Paracetamol 650mg,30.00,50,SUP-001,Antipyretic & Analgesic for fever and pain,15,false,B-PCM-101,120,2026-07-09,2028-04-09
-TABLET,M-02,MED-002,Ibuprofen 400mg,45.00,30,SUP-001,NSAID pain reliever and anti-inflammatory,10,false,B-IBU-201,80,2026-04-09,2027-10-09
-TABLET,M-03,MED-003,Cetirizine 10mg,25.00,40,SUP-002,Antihistamine for allergy and cold symptoms,10,false,B-CET-301,15,2025-12-09,2027-06-09
-TABLET,M-04,MED-004,Metformin 500mg,55.00,50,SUP-003,First-line oral antidiabetic medicine,20,false,B-MET-401,200,2026-06-09,2028-06-09
-TABLET,M-05,MED-005,Amlodipine 5mg,42.00,35,SUP-003,Calcium channel blocker for hypertension,15,false,B-AML-501,90,2026-05-09,2027-12-09
-TABLET,M-06,MED-006,Pantoprazole 40mg,85.00,40,SUP-002,Proton-pump inhibitor for acid reflux/GERD,10,false,B-PAN-601,150,2026-08-09,2028-08-09
-TABLET,M-07,MED-007,Vitamin C 500mg Chewable,60.00,60,SUP-004,Immunity booster chewable tablet,20,true,B-VTC-701,25,2026-02-09,2026-10-24
-TABLET,M-08,MED-008,Aspirin 75mg Low Dose,22.00,45,SUP-001,Blood thinner and cardiovascular protection,14,false,B-ASP-801,110,2026-03-09,2027-09-09
-ANTIBIOTIC,M-09,MED-009,Amoxicillin 500mg,110.00,35,SUP-001,Broad-spectrum beta-lactam antibiotic,Broad-Spectrum,true,B-AMX-901,95,2026-05-09,2027-08-09
-ANTIBIOTIC,M-10,MED-100,Azithromycin 500mg,130.00,25,SUP-002,Macrolide antibiotic for respiratory infections,Broad-Spectrum,true,B-AZI-101,12,2026-01-09,2027-07-09
-ANTIBIOTIC,M-11,MED-101,Ciprofloxacin 500mg,95.00,30,SUP-003,Fluoroquinolone antibiotic for bacterial infections,Broad-Spectrum,true,B-CIP-111,75,2026-06-09,2028-02-09
-ANTIBIOTIC,M-12,MED-102,Doxycycline 100mg,75.00,20,SUP-004,Tetracycline class antibiotic for skin & tick infections,Broad-Spectrum,true,B-DOX-121,40,2025-11-09,2026-10-29
-ANTIBIOTIC,M-13,MED-103,Cephalexin 500mg,140.00,25,SUP-002,First-generation cephalosporin antibiotic,Narrow-Spectrum,true,B-CEP-131,50,2025-08-09,2026-10-04
-SYRUP,M-14,MED-104,Cough Relief Syrup,85.00,30,SUP-001,Expectorant and decongestant cough formula,100,true,B-CSY-141,85,2026-07-09,2028-01-09
-SYRUP,M-15,MED-105,Paracetamol Paediatric 120mg,45.00,40,SUP-001,Child fever suspension with pleasant strawberry taste,60,true,B-PP-151,60,2026-08-09,2028-04-09
-SYRUP,M-16,MED-106,Antacid Mint Suspension,90.00,35,SUP-002,Liquid antacid with magnesium and aluminum hydroxides,200,false,B-ANT-161,18,2026-04-09,2027-08-09
-SYRUP,M-17,MED-107,Multivitamin Iron Syrup,125.00,25,SUP-004,Nutritional tonic for hemoglobin and energy,200,true,B-MVI-171,45,2026-05-09,2027-11-09
-SYRUP,M-18,MED-108,Bromhexine Mucolytic Syrup,70.00,20,SUP-003,Thins mucus in chest congestion,100,true,B-BRM-181,30,2025-12-09,2026-10-19
-INJECTION,M-19,MED-109,Insulin Human Regular 100IU,320.00,40,SUP-003,Fast-acting recombinant human insulin,Vial,true,B-INS-191,65,2026-08-09,2027-06-09
-INJECTION,M-20,MED-110,Tetanus Toxoid 0.5ml,35.00,50,SUP-001,Vaccine injection preventing tetanus infection,Ampoule,true,B-TT-201,140,2026-07-09,2028-10-09
-INJECTION,M-21,MED-111,Adrenaline 1mg/ml Emergency,80.00,30,SUP-002,Emergency epinephrine for anaphylaxis and cardiac arrest,Ampoule,false,B-ADR-211,8,2026-03-09,2027-04-09
-INJECTION,M-22,MED-112,Ceftriaxone 1g IV/IM,150.00,35,SUP-004,Third-generation cephalosporin injectable antibiotic,Vial,false,B-CTX-221,70,2026-06-09,2027-12-09
-INJECTION,M-23,MED-113,Diclofenac Sodium 75mg/3ml,45.00,40,SUP-001,Injectable NSAID for severe post-operative pain,Ampoule,false,B-DIC-231,55,2025-10-09,2026-09-19
-INJECTION,M-24,MED-114,Heparin Sodium 5000IU/ml,280.00,20,SUP-003,Anticoagulant injection preventing deep vein thrombosis,Vial,false,B-HEP-241,35,2026-05-09,2028-01-09
-OINTMENT,M-25,MED-115,Betamethasone 0.1% Cream,65.00,30,SUP-002,Topical corticosteroid for eczema and dermatitis,20.0,Cream,B-BET-251,50,2026-06-09,2028-02-09
-OINTMENT,M-26,MED-116,Mupirocin 2% Ointment,115.00,25,SUP-003,Antibacterial ointment for impetigo and skin cuts,15.0,Ointment,B-MUP-261,6,2026-02-09,2027-05-09
-OINTMENT,M-27,MED-117,Diclofenac Pain Relief Gel,75.00,35,SUP-004,Topical pain relieving gel for joint and muscle aches,30.0,Gel,B-DFG-271,40,2026-01-09,2026-11-03
-OINTMENT,M-28,MED-118,Silver Sulfadiazine 1% Burn Cream,95.00,20,SUP-001,Topical antimicrobial for prevention of burn wound sepsis,50.0,Cream,B-SSD-281,32,2026-07-09,2028-05-09
+type,id,name,price,qty,expiry,threshold,supplierName,supplierPhone,extra
+Tablet,101,Augmentin 625 Duo Tablet,223.42,179,2026-09-07,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,102,Azithral 500 Tablet,132.36,85,2026-11-02,30,Demo Supplier B,NOT PROVIDED,5
+Syrup,103,Ascoril LS Syrup,118,4,2026-11-02,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,104,Allegra 120mg Tablet,218.81,22,2027-06-02,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,105,Avil 25 Tablet,10.96,210,2027-03-14,30,Demo Supplier B,NOT PROVIDED,15
+Tablet,106,Allegra-M Tablet,241.48,236,2027-05-14,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,107,Amoxyclav 625 Tablet,223.27,215,2027-09-27,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,108,Azee 500 Tablet,132.38,142,2026-12-24,30,Demo Supplier B,NOT PROVIDED,5
+Tablet,109,Atarax 25mg Tablet,85.5,214,2028-04-02,30,Demo Supplier C,NOT PROVIDED,15
+Syrup,110,Ascoril D Plus Syrup Sugar Free,129,29,2028-09-21,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,111,Aciloc 150 Tablet,40.94,162,2026-10-23,30,Demo Supplier B,NOT PROVIDED,30
+Syrup,112,Alex Syrup,129,77,2026-11-02,15,Demo Supplier C,NOT PROVIDED,100
+Syrup,113,Ambrodil-S Syrup,30.2,14,2026-11-20,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,114,Arkamin Tablet,72.65,22,2028-03-09,30,Demo Supplier B,NOT PROVIDED,30
+Tablet,115,Avomine Tablet,55.98,157,2027-10-18,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,116,Asthakind-DX Syrup Sugar Free,70.4,102,2027-03-08,15,Demo Supplier A,NOT PROVIDED,60
+Syrup,117,Asthalin Syrup,19.04,93,2027-08-28,15,Demo Supplier B,NOT PROVIDED,100
+Syrup,118,Ascoril LS Junior Syrup,96,102,2027-05-21,15,Demo Supplier C,NOT PROVIDED,60
+Syrup,119,Alex Junior Syrup,95,54,2027-11-10,15,Demo Supplier A,NOT PROVIDED,60
+Syrup,120,Azee 200mg Dry Syrup,52.31,84,2027-02-25,15,Demo Supplier B,NOT PROVIDED,15
+Syrup,121,Ascoril D Junior Cough Syrup,98,61,2026-08-04,15,Demo Supplier C,NOT PROVIDED,60
+Syrup,122,Ambrodil-LX Syrup,90.85,19,2026-11-18,15,Demo Supplier A,NOT PROVIDED,100
+Injection,123,Aquaviron Injection 1ml,194.49,4,2026-11-26,10,Demo Supplier B,NOT PROVIDED,25
+Injection,124,Aciloc Injection,6.03,6,2027-10-30,10,Demo Supplier C,NOT PROVIDED,25
+Injection,125,Actilyse 50mg Injection,49899,49,2027-02-20,10,Demo Supplier A,NOT PROVIDED,50
+Injection,126,Atarax 25mg Injection,22.45,41,2027-03-20,10,Demo Supplier B,NOT PROVIDED,25
+Injection,127,Adenosine 3mg Injection,208.02,29,2028-08-12,10,Demo Supplier C,NOT PROVIDED,3
+Injection,128,Aqsusten 25 Solution for Injection,114,46,2028-04-25,10,Demo Supplier A,NOT PROVIDED,25
+Injection,129,Anawin Heavy 5mg Injection,30.45,45,2027-09-09,10,Demo Supplier B,NOT PROVIDED,5
+Injection,130,Amiject 500mg Injection,110,21,2027-07-01,10,Demo Supplier C,NOT PROVIDED,500
+Injection,131,Amitax 500mg Injection,119,73,2026-08-14,10,Demo Supplier A,NOT PROVIDED,500
+Injection,132,Avastin 100mg Injection,32250,29,2026-11-22,10,Demo Supplier B,NOT PROVIDED,100
+Injection,133,Aminophylline 250mg Injection,20.04,3,2026-11-17,10,Demo Supplier C,NOT PROVIDED,250
+Tablet,134,Alergin Cold Total Tablet,51.5,16,2027-11-08,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,135,Aceforce-SP New Tablet,90.75,201,2027-07-01,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,136,Azimax XL 200mg/5ml Dry Syrup,103.44,115,2028-08-20,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,137,Autoclave LB 500mg/125mg Tablet,140,151,2027-04-24,30,Demo Supplier A,NOT PROVIDED,6
+Tablet,138,A Vin 10mg Tablet,35,96,2028-05-11,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,139,Apitase Syrup,72,112,2028-05-15,15,Demo Supplier C,NOT PROVIDED,200
+Tablet,140,Azot 6mg Tablet,80,166,2027-07-30,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,141,Apan 40mg Tablet,53,51,2026-09-25,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,142,Auger Duo Dry Syrup,55,32,2026-11-17,15,Demo Supplier C,NOT PROVIDED,30
+Injection,143,Aucti 100mg Injection,250,6,2026-11-05,10,Demo Supplier A,NOT PROVIDED,100
+Tablet,144,Acelopara SP 100mg/325mg/15mg Tablet,85,18,2028-09-30,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,145,Avarux 20mg Tablet,129,88,2028-10-05,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,146,Activa Syrup,60,41,2028-01-15,15,Demo Supplier A,NOT PROVIDED,200
+Tablet,147,Azifix 250mg Tablet,57.5,133,2027-10-20,30,Demo Supplier B,NOT PROVIDED,6
+Tablet,148,Arenac MR 100mg/325mg/250mg Tablet,72,150,2027-02-17,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,149,Acixx Syrup Saunf,38.27,56,2027-12-17,15,Demo Supplier A,NOT PROVIDED,170
+Tablet,150,Aclovin-MR Tablet,52,228,2027-08-24,30,Demo Supplier B,NOT PROVIDED,10
+Injection,151,Amikater 500mg Injection,63,65,2026-10-03,10,Demo Supplier C,NOT PROVIDED,500
+Tablet,152,Aldicam TH 100mg/4mg Tablet,190,93,2026-11-07,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,153,Abcort 6 Tablet,106,12,2026-11-25,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,154,Azitheo 100mg Syrup,27.72,1,2027-01-14,15,Demo Supplier C,NOT PROVIDED,15
+Tablet,155,Aserra P 100mg/325mg/15mg Tablet,80,209,2028-03-16,30,Demo Supplier A,NOT PROVIDED,10
+Injection,156,Acuzid 1000mg Injection,240,66,2027-10-27,10,Demo Supplier B,NOT PROVIDED,1000
+Tablet,157,Alenpod O 200mg/200mg Tablet,210,231,2028-03-14,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,158,Apimox CV Dry Syrup,62,19,2027-03-12,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,159,Amlotor AT 5mg/50mg Tablet,30,113,2027-03-04,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,160,Aeloxim 500mg Tablet,488,237,2028-02-02,30,Demo Supplier C,NOT PROVIDED,10
+Injection,161,Avotrip 2mg Injection,18,78,2026-09-08,10,Demo Supplier A,NOT PROVIDED,2
+Syrup,162,Aszith 200mg Syrup,43,88,2026-11-12,15,Demo Supplier B,NOT PROVIDED,15
+Tablet,163,Adwimox-CV 625 Tablet,121,14,2026-11-13,30,Demo Supplier C,NOT PROVIDED,6
+Tablet,164,Azifile 500 Tablet,67,27,2028-01-20,30,Demo Supplier A,NOT PROVIDED,3
+Injection,165,Arazole 40mg Injection,55,46,2027-07-25,10,Demo Supplier B,NOT PROVIDED,40
+Syrup,166,Ambilax 5mg Syrup,60,62,2027-10-17,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,167,Alicin 100mg Tablet,40,67,2027-10-07,30,Demo Supplier A,NOT PROVIDED,6
+Injection,168,Amitric 500mg Injection,85,18,2027-11-20,10,Demo Supplier B,NOT PROVIDED,500
+Tablet,169,Abrofast-NAC Tablet,187,194,2028-07-25,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,170,Avof OZ Plus Syrup,85,48,2026-12-28,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,171,Azrist 500mg Tablet,72,33,2026-08-18,30,Demo Supplier B,NOT PROVIDED,3
+Injection,172,Alvirab 20mg Injection,89,63,2026-11-19,10,Demo Supplier C,NOT PROVIDED,20
+Tablet,173,Avolip 20mg Tablet,110,21,2026-11-09,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,174,Aelxim 50 LB Dry Syrup,54,5,2028-01-17,15,Demo Supplier B,NOT PROVIDED,30
+Injection,175,Anatrix 1000mg Injection,75,67,2027-09-10,10,Demo Supplier C,NOT PROVIDED,1000
+Tablet,176,Ambidrox 30mg/500mg Tablet,109,203,2028-01-06,30,Demo Supplier A,NOT PROVIDED,10
+Injection,177,Allrabbe 20mg Injection,70,50,2027-12-26,10,Demo Supplier B,NOT PROVIDED,20
+Syrup,178,Azinot 200mg Syrup,48.7,65,2026-12-19,15,Demo Supplier C,NOT PROVIDED,15
+Tablet,179,Artraline 50mg Tablet,55,153,2026-12-30,30,Demo Supplier A,NOT PROVIDED,10
+Injection,180,Arkpred 80mg Injection,85,18,2028-03-28,10,Demo Supplier B,NOT PROVIDED,80
+Injection,181,Astarox 500mg Injection,43,39,2026-10-05,10,Demo Supplier C,NOT PROVIDED,500
+Tablet,182,Acecliff P 100mg/325mg Tablet,43,62,2026-11-24,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,183,Akuflox 50mg Syrup,48.4,11,2026-11-13,15,Demo Supplier B,NOT PROVIDED,60
+Injection,184,Atsofine 500mg Injection,83,4,2028-08-05,10,Demo Supplier C,NOT PROVIDED,500
+Tablet,185,Bus-Q New Tablet,48.2,64,2028-03-11,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,186,Brocofil-DR Syrup Sugar Free,97,120,2027-06-08,15,Demo Supplier B,NOT PROVIDED,100
+Tablet,187,Bisopil 5.0 Tablet,40,58,2027-01-29,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,188,Bivalex 10 Tablet,130,43,2027-03-05,30,Demo Supplier A,NOT PROVIDED,10
+Injection,189,Bactilem 750mg Injection,167.18,13,2027-08-08,10,Demo Supplier B,NOT PROVIDED,750
+Syrup,190,Brony Syrup,72.5,104,2028-07-03,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,191,Bakwel-A Tablet,147,42,2026-08-25,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,192,BC Clav Syrup,68.65,57,2026-11-02,15,Demo Supplier B,NOT PROVIDED,30
+Tablet,193,Bettor 40mg Tablet,99.5,10,2026-11-22,30,Demo Supplier C,NOT PROVIDED,10
+Injection,194,Bredium 20mg Injection,235,3,2027-03-27,10,Demo Supplier A,NOT PROVIDED,20
+Tablet,195,Bitrova-F Tablet,80,66,2027-04-03,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,196,Brotzu 125mg Syrup,11.26,112,2028-05-10,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,197,Bronchosol-BR Tablet,6,182,2027-03-01,30,Demo Supplier A,NOT PROVIDED,10
+Injection,198,Butim 250mg Injection,460,73,2028-05-29,10,Demo Supplier B,NOT PROVIDED,250
+Syrup,199,Chericof-LS Junior Syrup,79,105,2028-05-28,15,Demo Supplier C,NOT PROVIDED,60
+Tablet,200,Colochicine 0.5mg Tablet,10.58,95,2027-10-20,30,Demo Supplier A,NOT PROVIDED,10
+Injection,201,Cancidas 50mg Injection,14115,68,2026-07-31,10,Demo Supplier B,NOT PROVIDED,50
+Tablet,202,Cophedrin Tablet,33.67,195,2026-11-11,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,203,Cough-X Syrup,74,7,2026-11-09,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,204,Clomicare 25 Tablet,44,28,2028-10-16,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,205,Coxifact Plus 60mg/4mg Tablet,159,117,2027-05-18,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,206,Ctuss Syrup,86,39,2027-03-03,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,207,Clonasig 0.5mg Tablet,31.5,69,2028-06-06,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,208,Chemidrex E Syrup,39.52,31,2027-06-14,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,209,Cefukit 500 Tablet,450,117,2028-03-06,30,Demo Supplier A,NOT PROVIDED,10
+Injection,210,Cytarine 500mg Injection,593.46,39,2027-09-25,10,Demo Supplier B,NOT PROVIDED,500
+Tablet,211,Clopitrix 75mg Tablet,70.56,188,2026-08-05,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,212,Cepowin 50 Dry Syrup,80,46,2026-11-01,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,213,Cefastar-CV 200 Tablet,340,10,2026-10-31,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,214,Cefozox Dry Syrup,85,10,2028-09-23,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,215,Cipam S 5 Tablet,37.5,90,2028-08-21,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,216,Capiclav Dry Syrup,75,74,2027-09-13,15,Demo Supplier B,NOT PROVIDED,30
+Tablet,217,Clozepam 1mg Tablet,43,78,2027-02-13,30,Demo Supplier C,NOT PROVIDED,10
+Injection,218,Covatil 250mg Injection,66.5,58,2027-07-18,10,Demo Supplier A,NOT PROVIDED,250
+Syrup,219,Cheskas-LS Syrup,72,87,2028-09-10,15,Demo Supplier B,NOT PROVIDED,60
+Tablet,220,Ceflin O LB 200mg/200mg Tablet,182,180,2028-04-10,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,221,Cenac SP 100mg/325mg/10mg Tablet,80,224,2026-09-13,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,222,Clarimox CV Dry Syrup,85,103,2026-11-11,15,Demo Supplier B,NOT PROVIDED,30
+Tablet,223,Clobit MR 100mg/325mg/250mg Tablet,62.75,5,2026-11-24,30,Demo Supplier C,NOT PROVIDED,10
+Injection,224,Caveolin Ptx 100mg Injection,6111,3,2027-01-27,10,Demo Supplier A,NOT PROVIDED,100
+Syrup,225,Clavonip DS Dry Syrup,98.21,119,2027-06-01,15,Demo Supplier B,NOT PROVIDED,30
+Tablet,226,Cilofine 100mg Tablet,238,217,2027-06-23,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,227,Clavom 200mg/28.5mg Dry Syrup,52.9,16,2027-07-30,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,228,Clozorix 0.5mg Tablet,18,100,2027-08-07,30,Demo Supplier B,NOT PROVIDED,10
+Injection,229,Ceftax 1000mg Injection,35,70,2027-10-21,10,Demo Supplier C,NOT PROVIDED,1000
+Tablet,230,Cefucap 500mg Tablet,460,221,2028-09-07,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,231,Cetrinat Syrup,21.55,45,2026-08-13,15,Demo Supplier B,NOT PROVIDED,60
+Injection,232,Ceft 1000mg Injection,58.6,52,2026-11-25,10,Demo Supplier C,NOT PROVIDED,1000
+Tablet,233,Cadoric 90mg Tablet,96,8,2026-11-05,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,234,Clavcare DS 500 mg/125 mg Dry Syrup,45,8,2027-10-06,15,Demo Supplier B,NOT PROVIDED,30
+Syrup,235,Ceftek 125mg Dry Syrup,19.5,51,2028-06-27,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,236,Cefgo-OZ Tablet,165.7,91,2027-01-10,30,Demo Supplier A,NOT PROVIDED,10
+Injection,237,Cirmon 4mg Injection,12.24,47,2027-11-28,10,Demo Supplier B,NOT PROVIDED,4
+Syrup,238,Cefaur 50 Dry Syrup,48.5,61,2027-07-23,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,239,Conformin Tablet,16.3,233,2027-08-01,30,Demo Supplier A,NOT PROVIDED,10
+Injection,240,Cidloc 40mg Injection,45,60,2028-05-15,10,Demo Supplier B,NOT PROVIDED,40
+Syrup,241,Curelin Dry Syrup,57,24,2026-09-14,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,242,Ciprolintz 500mg/600mg Tablet,54.75,121,2026-10-30,30,Demo Supplier A,NOT PROVIDED,10
+Injection,243,Cytrosar 1000mg Injection,1925,8,2026-11-11,10,Demo Supplier B,NOT PROVIDED,1000
+Syrup,244,Credliser 1.4gm Syrup,58,8,2027-12-11,15,Demo Supplier C,NOT PROVIDED,100
+Injection,245,Ceftosize 1000mg Injection,60,62,2028-04-06,10,Demo Supplier A,NOT PROVIDED,1000
+Tablet,246,Conihist M 10mg/120mg Tablet,138,38,2027-08-11,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,247,Cefponek 50mg Syrup,47.9,35,2027-04-01,15,Demo Supplier C,NOT PROVIDED,30
+Injection,248,Ceftree 500mg Injection,43.9,13,2028-05-25,10,Demo Supplier A,NOT PROVIDED,500
+Syrup,249,Ceporag 50mg Syrup,65,96,2027-10-16,15,Demo Supplier B,NOT PROVIDED,30
+Injection,250,Colbol 100mg Injection,15,18,2028-06-17,10,Demo Supplier C,NOT PROVIDED,100
+Tablet,251,Cefusa 500mg Tablet,534.5,198,2026-08-13,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,252,Dt 20mg Tablet,67,80,2026-11-08,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,253,Dfax 25mg Tablet,128,23,2026-11-26,30,Demo Supplier C,NOT PROVIDED,15
+Tablet,254,Durapan 40mg Tablet,57,7,2028-08-23,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,255,Duracid O Syrup,43.75,33,2027-12-11,15,Demo Supplier B,NOT PROVIDED,170
+Injection,256,Doxiverge Injection,499,76,2027-04-06,10,Demo Supplier C,NOT PROVIDED,100
+Tablet,257,Deflazit 6 Tablet,88,162,2027-07-17,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,258,Dotiwak 80mg Tablet,44,186,2027-08-26,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,259,Dyspeptic D Tablet,39.36,211,2028-09-16,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,260,Diclopal 50 mg/500 mg Tablet,20,70,2027-12-25,30,Demo Supplier A,NOT PROVIDED,10
+Injection,261,Dolonice 25mg Injection,7.9,76,2026-09-21,10,Demo Supplier B,NOT PROVIDED,25
+Syrup,262,Dexiv Syrup,65,72,2026-11-24,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,263,Doxicar 25mg Tablet,28,28,2026-11-06,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,264,Diaglim 1mg Tablet,36.26,10,2027-05-27,30,Demo Supplier B,NOT PROVIDED,10
+Injection,265,Dacarol 500mg Injection,1000,28,2028-07-26,10,Demo Supplier C,NOT PROVIDED,500
+Tablet,266,Deflaz 30mg Tablet,320,186,2028-01-05,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,267,Diphen EX Syrup,106.25,24,2026-12-27,15,Demo Supplier B,NOT PROVIDED,450
+Tablet,268,Dioflo 400mg Tablet,62.5,153,2027-08-15,30,Demo Supplier C,NOT PROVIDED,10
+Injection,269,Dicloin-AQ Injection,30,41,2026-12-15,10,Demo Supplier A,NOT PROVIDED,75
+Tablet,270,Diclodif S 50mg/15mg Tablet,55,227,2028-05-15,30,Demo Supplier B,NOT PROVIDED,10
+Injection,271,Doloact 25mg Injection,6.66,72,2026-08-25,10,Demo Supplier C,NOT PROVIDED,25
+Injection,272,Decatech 25 Injection,135,78,2026-11-01,10,Demo Supplier A,NOT PROVIDED,25
+Tablet,273,Diflox MR 250mg/50mg/325mg Tablet,56,8,2026-11-20,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,274,Datalka 1.14gm Syrup,58,6,2028-08-17,15,Demo Supplier C,NOT PROVIDED,100
+Injection,275,Decavib 50mg Injection,135,24,2027-03-19,10,Demo Supplier A,NOT PROVIDED,50
+Tablet,276,Diponac S 50mg/15mg Tablet,55,190,2027-11-27,30,Demo Supplier B,NOT PROVIDED,10
+Injection,277,Deesolone 1000mg Injection,1145,39,2027-06-12,10,Demo Supplier C,NOT PROVIDED,1000
+Injection,278,Decakab 50mg Injection,104.72,35,2028-07-25,10,Demo Supplier A,NOT PROVIDED,50
+Tablet,279,Ect Plus Tablet,242,74,2027-11-27,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,280,Expel Syrup,45.22,68,2028-08-17,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,281,Enzotrip 90mg/48mg/100mg Tablet,179,222,2026-09-27,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,282,Evergraf 0.25mg Tablet,636.9,151,2026-11-05,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,283,Elden 50mg Tablet,32,18,2026-11-09,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,284,Evertor 10mg Tablet,14690.87,15,2027-02-12,30,Demo Supplier A,NOT PROVIDED,10
+Injection,285,Enoxatech 60 Injection,638,56,2028-06-15,10,Demo Supplier B,NOT PROVIDED,60
+Syrup,286,Entuss Plus Syrup,49,40,2027-10-21,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,287,Esopoz 40mg Tablet,70,219,2028-04-05,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,288,Emvose M 500 mg/0.2 mg Tablet,72,195,2027-08-18,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,289,Edisil Mps Syrup,55,83,2027-05-28,15,Demo Supplier C,NOT PROVIDED,170
+Tablet,290,Etcoo Plus 0.5mg/5mg Tablet,65,101,2026-12-14,30,Demo Supplier A,NOT PROVIDED,10
+Injection,291,Ersoryn 60 Injection,638,27,2026-08-01,10,Demo Supplier B,NOT PROVIDED,60
+Tablet,292,Etogil Tablet,109,48,2026-11-14,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,293,Easewel P 100mg/325mg Tablet,37,17,2026-11-13,30,Demo Supplier A,NOT PROVIDED,10
+Injection,294,Esofic Injection,99,4,2028-06-04,10,Demo Supplier B,NOT PROVIDED,40
+Syrup,295,EL Clav Duo Dry Syrup,129,114,2028-03-17,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,296,Evicef 100 Tablet,85,110,2028-09-12,30,Demo Supplier A,NOT PROVIDED,10
+Injection,297,Efex 1gm Injection,65,34,2028-07-22,10,Demo Supplier B,NOT PROVIDED,1000
+Tablet,298,Evic 100mg Tablet,8,30,2027-06-04,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,299,Efydec CV Dry Syrup,94,92,2027-12-24,15,Demo Supplier A,NOT PROVIDED,30
+Injection,300,Effibol 50mg Injection,94.95,15,2028-04-10,10,Demo Supplier B,NOT PROVIDED,50
+Tablet,301,Fluxtree-M Tablet,72,200,2026-10-10,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,302,F 1 Rise Plus Tablet,178,117,2026-11-02,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,303,Flutrac 0.5mg Tablet,40,9,2026-11-17,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,304,Febumost 40 Tablet,99,7,2028-02-16,30,Demo Supplier C,NOT PROVIDED,10
+Injection,305,Faslomax 250mg Injection,12521,25,2028-09-30,10,Demo Supplier A,NOT PROVIDED,250
+Syrup,306,Fixcef Dry Syrup,42.2,70,2027-08-04,15,Demo Supplier B,NOT PROVIDED,30
+Tablet,307,Favicovid 400mg Tablet,1044,105,2028-09-07,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,308,Floxiven OZ 200mg/500mg Tablet,82.4,152,2027-07-04,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,309,Faithcef-O Tablet,154,85,2027-08-01,30,Demo Supplier B,NOT PROVIDED,10
+Injection,310,Ferlib Injection,273,65,2027-09-11,10,Demo Supplier C,NOT PROVIDED,20
+Syrup,311,Fnorm P 125mg/5ml/5mg/5ml Syrup,23,79,2026-10-07,15,Demo Supplier A,NOT PROVIDED,60
+Tablet,312,Febicop 40mg Tablet,96,221,2026-11-15,30,Demo Supplier B,NOT PROVIDED,10
+Injection,313,Femtrax 1000mg Injection,88,4,2026-11-22,10,Demo Supplier C,NOT PROVIDED,1000
+Tablet,314,Frileo 500mg Tablet,75,4,2028-05-27,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,315,Fexip 50mg Dry Syrup,59,29,2027-09-19,15,Demo Supplier B,NOT PROVIDED,30
+Injection,316,Flopace 250mg Injection,7581.65,26,2026-12-21,10,Demo Supplier C,NOT PROVIDED,250
+Tablet,317,Fod AZ 200mg/250mg Tablet,241.2,215,2027-12-13,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,318,Gabacnx NT 400mg/10mg Tablet,228,233,2028-07-19,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,319,Grotone Syrup,83,33,2028-02-06,15,Demo Supplier C,NOT PROVIDED,200
+Tablet,320,Glisimet 1mg Tablet,23,30,2028-05-30,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,321,Geclop 75mg Tablet,37,190,2026-09-11,30,Demo Supplier B,NOT PROVIDED,10
+Injection,322,Gester 500mg Injection,175,62,2026-11-02,10,Demo Supplier C,NOT PROVIDED,500
+Tablet,323,Glitaz 15mg Tablet,53,10,2026-11-14,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,324,Glimicord M 2mg/500mg Tablet,72,27,2027-04-30,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,325,Gastrogyl Plus 250 mg/600 mg/10 mg Tablet,142.86,48,2027-09-01,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,326,Gliwill 1mg Tablet,30,55,2027-07-11,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,327,Glofty-N Syrup,62,115,2028-02-26,15,Demo Supplier B,NOT PROVIDED,60
+Injection,328,Gexamic Injection,45,28,2027-10-16,10,Demo Supplier C,NOT PROVIDED,100
+Tablet,329,Glemap 4mg Tablet,108.75,112,2028-08-17,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,330,Gaacef AZ 200mg/250mg Tablet,248,89,2027-03-20,30,Demo Supplier B,NOT PROVIDED,10
+Injection,331,Glygesic 25mg Injection,2.37,40,2026-09-05,10,Demo Supplier C,NOT PROVIDED,25
+Syrup,332,Heparid Syrup,179,35,2026-11-23,15,Demo Supplier A,NOT PROVIDED,200
+Tablet,333,Hernafil Cet 25mg Tablet,120,26,2026-11-16,30,Demo Supplier B,NOT PROVIDED,6
+Tablet,334,Hiact P Tablet,121.97,29,2028-05-03,30,Demo Supplier C,NOT PROVIDED,10
+Injection,335,Hemoford Injection,270,14,2027-04-07,10,Demo Supplier A,NOT PROVIDED,100
+Syrup,336,Haital Syrup Sugar Free,115,94,2027-03-18,15,Demo Supplier B,NOT PROVIDED,200
+Tablet,337,Herocef 200mg Tablet,199,136,2027-09-20,30,Demo Supplier C,NOT PROVIDED,10
+Injection,338,Heof 100mg Injection,30,76,2028-02-28,10,Demo Supplier A,NOT PROVIDED,100
+Syrup,339,Hedosat 10mg Syrup,64,27,2028-04-05,15,Demo Supplier B,NOT PROVIDED,100
+Tablet,340,Herzan 10mg Tablet,68.5,123,2027-09-26,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,341,Ivabrad M 5mg/25mg Tablet,176.4,184,2026-08-11,30,Demo Supplier A,NOT PROVIDED,10
+Injection,342,Ixza 500mg Injection,493.45,60,2026-11-10,10,Demo Supplier B,NOT PROVIDED,500
+Tablet,343,Icerfast P Tablet,55,29,2026-11-09,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,344,Inciclav Dry Syrup,62,3,2027-05-22,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,345,Ioncold-P 5mg/325mg/5mg Tablet,40,54,2027-10-11,30,Demo Supplier B,NOT PROVIDED,10
+Injection,346,Icubac 125mg Injection,275,11,2028-04-05,10,Demo Supplier C,NOT PROVIDED,125
+Injection,347,Irokia S 20mg Injection,240,12,2027-05-04,10,Demo Supplier A,NOT PROVIDED,20
+Tablet,348,Ikvaz 500mg Tablet,67,231,2028-07-23,30,Demo Supplier B,NOT PROVIDED,3
+Syrup,349,Jiotuss DX Syrup,69,71,2028-10-03,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,350,Jubiglim 1 Tablet,35.19,38,2028-09-17,30,Demo Supplier A,NOT PROVIDED,10
+Injection,351,Jumbomed 1000mg Injection,2100,19,2026-09-24,10,Demo Supplier B,NOT PROVIDED,1000
+Syrup,352,Kofgard 100 mg/2.5 mg/8 mg Syrup,46.5,38,2026-11-18,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,353,Kleputab LM 5mg/10mg Tablet,179,10,2026-11-16,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,354,Kofnez L Syrup,60,3,2028-01-23,15,Demo Supplier B,NOT PROVIDED,100
+Tablet,355,Kufway Cold Tablet,85,61,2027-12-28,30,Demo Supplier C,NOT PROVIDED,15
+Syrup,356,Kricef-O Dry Syrup,95,114,2028-07-24,15,Demo Supplier A,NOT PROVIDED,30
+Injection,357,Kiviza 2000mg Injection,550,42,2028-08-09,10,Demo Supplier B,NOT PROVIDED,2000
+Syrup,358,Kuflap AB Syrup,80,97,2027-04-13,15,Demo Supplier C,NOT PROVIDED,100
+Tablet,359,Kezz 200mg Tablet,179,221,2027-12-10,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,360,Kroclav-DS Dry Syrup,115,56,2028-05-20,15,Demo Supplier B,NOT PROVIDED,30
+Injection,361,Kapiart 60mg Injection,180,78,2026-09-24,10,Demo Supplier C,NOT PROVIDED,60
+Tablet,362,Kodiros 5mg Tablet,92,199,2026-11-08,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,363,Lupihist Syrup,73,3,2026-11-07,15,Demo Supplier B,NOT PROVIDED,100
+Injection,364,Larinate 60mg Injection,260.68,4,2028-07-06,10,Demo Supplier C,NOT PROVIDED,60
+Tablet,365,Labocof 4mg/4mg/50mg/5mg/450mg Tablet,26,66,2027-04-24,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,366,Levalon 300 Tablet,180.5,137,2027-08-03,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,367,L-Thyroid 25mcg Tablet,80,134,2028-01-08,30,Demo Supplier C,NOT PROVIDED,100
+Syrup,368,Lecet M Syrup,78,28,2028-07-23,15,Demo Supplier A,NOT PROVIDED,60
+Tablet,369,Leemol-DC Tablet,35,95,2028-02-20,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,370,Livstatin 10mg Tablet,61,42,2028-01-26,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,371,Lixofate O Syrup,125,65,2026-09-17,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,372,Lipivas EZ Tablet,103,126,2026-11-03,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,373,Lormac 2mg Tablet,25.53,9,2026-10-31,30,Demo Supplier C,NOT PROVIDED,10
+Injection,374,Liverab 20mg Injection,72,4,2027-04-23,10,Demo Supplier A,NOT PROVIDED,20
+Syrup,375,Lynorest A Syrup,76,95,2028-03-27,15,Demo Supplier B,NOT PROVIDED,100
+Tablet,376,Lvo 500 Tablet,81,70,2027-11-08,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,377,Lorniflex Plus 4 mg/500 mg Tablet,33.1,174,2028-09-20,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,378,Losatec 25 Tablet,28.15,85,2027-01-06,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,379,Linquine F 300mg Syrup,54.4,90,2027-06-04,15,Demo Supplier C,NOT PROVIDED,60
+Tablet,380,Lefumib 10mg Tablet,110,194,2027-10-31,30,Demo Supplier A,NOT PROVIDED,10
+Injection,381,Lifedac 50mg Injection,120,31,2026-10-16,10,Demo Supplier B,NOT PROVIDED,50
+Tablet,382,Lipirob 10mg Tablet,62,172,2026-10-31,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,383,Libadrox 250mg Dry Syrup,56.1,9,2026-11-25,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,384,Linepen 600 Tablet,216,8,2028-08-04,30,Demo Supplier B,NOT PROVIDED,4
+Injection,385,Meronem 500mg Injection,1608,35,2027-08-01,10,Demo Supplier C,NOT PROVIDED,500
+Tablet,386,Mahanac S Tablet,134.6,161,2027-12-05,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,387,Minolast Syrup,95,71,2028-07-15,15,Demo Supplier B,NOT PROVIDED,60
+Tablet,388,Mitpin 7.5mg Tablet,64,191,2027-08-16,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,389,Mocet LC 5mg/10mg Tablet,121,225,2028-03-07,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,390,Mycin 150mg Tablet,25,153,2027-08-14,30,Demo Supplier B,NOT PROVIDED,10
+Injection,391,Mizocam Injection,4.37,35,2026-09-19,10,Demo Supplier C,NOT PROVIDED,20
+Syrup,392,Mefna P Forte Syrup,58,83,2026-11-26,15,Demo Supplier A,NOT PROVIDED,60
+Tablet,393,Mob-AP 100mg/325mg Tablet,25,26,2026-11-25,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,394,Mefmax-P Tablet,55,1,2028-01-28,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,395,Montigest L Syrup,65,100,2027-02-02,15,Demo Supplier A,NOT PROVIDED,60
+Tablet,396,Montilar-FX Tablet,145.65,65,2027-11-08,30,Demo Supplier B,NOT PROVIDED,10
+Injection,397,Makcort 40mg/ml Injection,65,34,2027-04-20,10,Demo Supplier C,NOT PROVIDED,40
+Tablet,398,Merty 2.5mg Tablet,26,72,2028-01-24,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,399,Montem L Syrup,82,51,2027-07-13,15,Demo Supplier B,NOT PROVIDED,60
+Tablet,400,Masmox CV 500mg/125mg Tablet,113.25,107,2027-04-03,30,Demo Supplier C,NOT PROVIDED,6
+Injection,401,Mepsonate 500mg Injection,635,70,2026-09-12,10,Demo Supplier A,NOT PROVIDED,500
+Tablet,402,Medozole 150mg Tablet,54,111,2026-11-05,30,Demo Supplier B,NOT PROVIDED,4
+Syrup,403,Martus GBP Syrup,39,14,2026-10-30,15,Demo Supplier C,NOT PROVIDED,100
+Injection,404,Migace 150mg Injection,16,6,2027-04-24,10,Demo Supplier A,NOT PROVIDED,150
+Tablet,405,Moon Leo 5mg/10mg Tablet,99,135,2027-02-09,30,Demo Supplier B,NOT PROVIDED,10
+Injection,406,Meroquid 500mg Injection,990,75,2028-03-21,10,Demo Supplier C,NOT PROVIDED,500
+Syrup,407,Mili-CV Dry Syrup,62,73,2028-02-25,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,408,Magpride 1mg Tablet,32,65,2027-10-28,30,Demo Supplier B,NOT PROVIDED,10
+Injection,409,Magdac 50mg Injection,140,28,2028-07-04,10,Demo Supplier C,NOT PROVIDED,50
+Syrup,410,Mongex Syrup,74,20,2027-10-10,15,Demo Supplier A,NOT PROVIDED,60
+Tablet,411,Mexatin 16mg Tablet,75,48,2026-09-07,30,Demo Supplier B,NOT PROVIDED,10
+Injection,412,Malfigo AT 60mg Injection,210,59,2026-11-09,10,Demo Supplier C,NOT PROVIDED,60
+Injection,413,Mikasun 250mg Injection,35.5,2,2026-11-10,10,Demo Supplier A,NOT PROVIDED,250
+Injection,414,Mdnole 25mg Injection,70,4,2027-05-23,10,Demo Supplier B,NOT PROVIDED,25
+Tablet,415,Magclav 500mg/125mg Tablet,230,36,2028-08-16,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,416,Mekxim 50mg Dry Syrup,49,50,2027-09-03,15,Demo Supplier A,NOT PROVIDED,30
+Injection,417,Nurokind-LC Injection,66.55,23,2027-06-11,10,Demo Supplier B,NOT PROVIDED,200
+Tablet,418,Neuro Total PG Tablet,155,46,2027-05-18,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,419,Nyfol TP 4mg/100mg/325mg Tablet,205,105,2027-04-18,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,420,Nuromic-G Tablet,121,230,2027-01-03,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,421,Normodoxin 10mg/10mg Tablet,24,50,2026-10-01,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,422,Noscaphene DM Syrup,40.47,92,2026-11-12,15,Demo Supplier A,NOT PROVIDED,100
+Injection,423,Nuphos 1000mg Injection,130,4,2026-10-30,10,Demo Supplier B,NOT PROVIDED,1000
+Tablet,424,Nusid Neo MR 100mg/325mg/250mg Tablet,94,28,2028-01-31,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,425,Nebivib Tablet,99,190,2027-05-23,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,426,Novacet 5mg Syrup,36,69,2027-09-12,15,Demo Supplier B,NOT PROVIDED,60
+Tablet,427,Nutraflox 200 Tablet,55,124,2027-09-19,30,Demo Supplier C,NOT PROVIDED,10
+Injection,428,Nordyx Injection,56,24,2027-04-15,10,Demo Supplier A,NOT PROVIDED,2
+Tablet,429,Nitadel Tablet,108,68,2027-02-03,30,Demo Supplier B,NOT PROVIDED,10
+Injection,430,Ntn 50mg Injection,85,57,2028-09-30,10,Demo Supplier C,NOT PROVIDED,50
+Syrup,431,ND Kuff Syrup,85,35,2026-09-20,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,432,Nixzine-M Tablet,125,152,2026-11-11,30,Demo Supplier B,NOT PROVIDED,10
+Injection,433,Nalin 100mg Injection,13.82,3,2026-11-18,10,Demo Supplier C,NOT PROVIDED,100
+Injection,434,Ndoate 25mg Injection,76.5,2,2028-09-21,10,Demo Supplier A,NOT PROVIDED,25
+Tablet,435,Nebitroy H 5 mg/12.5 mg Tablet,76,97,2027-12-27,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,436,Niyaclave Dry Syrup,57,57,2027-01-13,15,Demo Supplier C,NOT PROVIDED,30
+Injection,437,Nexcef 250mg Injection,33,44,2027-05-31,10,Demo Supplier A,NOT PROVIDED,250
+Tablet,438,Olmecip 20 Tablet,136.88,226,2027-10-27,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,439,Opin 5mg Tablet,32.4,72,2028-04-01,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,440,Orinec P 100mg/325mg Tablet,45,150,2028-08-22,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,441,Ofloxacure 50mg Syrup,35,27,2026-09-06,15,Demo Supplier B,NOT PROVIDED,60
+Tablet,442,Oltha 20mg Tablet,137.8,32,2026-11-06,30,Demo Supplier C,NOT PROVIDED,10
+Injection,443,Opred 500 Injection,890,5,2026-10-28,10,Demo Supplier A,NOT PROVIDED,500
+Tablet,444,Omten-C 40/10 Tablet,190,24,2027-02-26,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,445,Orlidox-D Tablet,49,207,2028-04-02,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,446,Olencyp Syrup,85,107,2027-06-19,15,Demo Supplier A,NOT PROVIDED,200
+Tablet,447,Opol 50mg Tablet,26.9,197,2027-06-30,30,Demo Supplier B,NOT PROVIDED,10
+Injection,448,Oncocin 2mg Injection,90.47,39,2027-03-16,10,Demo Supplier C,NOT PROVIDED,2
+Tablet,449,Olox TZ 200mg/600mg Tablet,69.68,233,2028-08-25,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,450,Odiday 5mg Syrup,24,18,2027-04-30,15,Demo Supplier B,NOT PROVIDED,60
+Tablet,451,Orithral 250mg Tablet,58.4,184,2026-10-06,30,Demo Supplier C,NOT PROVIDED,6
+Injection,452,Octiross 100mg Injection,505,12,2026-11-21,10,Demo Supplier A,NOT PROVIDED,100
+Tablet,453,Olsure H 12.5mg/40mg Tablet,145,26,2026-11-11,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,454,Ongesic P Syrup,68,10,2027-03-12,15,Demo Supplier C,NOT PROVIDED,60
+Injection,455,Omceft 500mg Injection,52,57,2028-07-15,10,Demo Supplier A,NOT PROVIDED,500
+Tablet,456,Ofcil 200mg Tablet,46.92,230,2028-10-13,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,457,Podocip 200mg Tablet,299.2,38,2028-08-02,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,458,Piokind 30 Tablet,82,69,2027-06-23,30,Demo Supplier A,NOT PROVIDED,10
+Injection,459,Perfalgan 500mg Injection,170,11,2027-04-05,10,Demo Supplier B,NOT PROVIDED,500
+Syrup,460,Paradol Syrup,40,112,2028-09-13,15,Demo Supplier C,NOT PROVIDED,60
+Tablet,461,Pruzin 25mg Tablet,60,174,2026-10-18,30,Demo Supplier A,NOT PROVIDED,15
+Tablet,462,Pantak 40mg Tablet,57,35,2026-10-28,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,463,Pangap 40 Tablet,65,13,2026-11-24,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,464,Phyllin-AC 50mg Syrup,78,13,2027-10-29,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,465,Perol Plus 100mg/325mg Tablet,38.65,58,2027-12-18,30,Demo Supplier B,NOT PROVIDED,10
+Injection,466,Pannav 20mg Injection,45,30,2027-12-24,10,Demo Supplier C,NOT PROVIDED,20
+Tablet,467,Parmed 200mg Tablet,99.5,36,2028-02-11,30,Demo Supplier A,NOT PROVIDED,10
+Injection,468,Panic 40mg Injection,49.7,40,2027-03-30,10,Demo Supplier B,NOT PROVIDED,40
+Tablet,469,Pio Q 15mg Tablet,39.45,32,2028-02-16,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,470,Pcan-P Syrup,42,48,2027-02-04,15,Demo Supplier A,NOT PROVIDED,60
+Tablet,471,Que 25 Tablet,27.8,181,2026-09-14,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,472,Retoz-MR 4 Tablet,279.25,233,2026-11-21,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,473,Rhinorest LC Syrup,89.5,12,2026-11-07,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,474,Rivared 15mg Tablet,299,5,2028-06-11,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,475,Rifabet 200mg Tablet,137,75,2027-03-14,30,Demo Supplier C,NOT PROVIDED,10
+Injection,476,Rabifast 20mg Injection,80,34,2028-02-27,10,Demo Supplier A,NOT PROVIDED,20
+Tablet,477,Rebaz 20mg Tablet,89,82,2027-06-28,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,478,Revoglip 20 Tablet,119.55,128,2027-09-24,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,479,Roscillin 250mg Syrup,37.95,21,2027-10-06,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,480,Rabetol 20mg Tablet,45,200,2028-01-11,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,481,Rexfen-P Tablet,48,132,2026-09-26,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,482,Rozcap 10 Tablet,125,145,2026-11-15,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,483,Repel-ML-Kid Tablet,88,24,2026-11-08,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,484,Rexcort 6mg Syrup,79,7,2028-08-18,15,Demo Supplier C,NOT PROVIDED,30
+Injection,485,Raniphar Injection,3.17,73,2028-06-03,10,Demo Supplier A,NOT PROVIDED,25
+Tablet,486,Raniflox OZ 200mg/500mg Tablet,78,63,2028-01-23,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,487,RI LS Tablet,27.1,96,2027-12-04,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,488,Ralcidin Syrup,44,116,2028-04-01,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,489,Rosuan F 160mg/10mg Tablet,160,178,2028-10-14,30,Demo Supplier B,NOT PROVIDED,10
+Injection,490,Roxyn 750mg Injection,145,45,2027-06-06,10,Demo Supplier C,NOT PROVIDED,750
+Tablet,491,R-Doxime 100mg Tablet,120,70,2026-10-05,30,Demo Supplier A,NOT PROVIDED,10
+Injection,492,Rosucef 1000mg Injection,59,25,2026-11-09,10,Demo Supplier B,NOT PROVIDED,1000
+Tablet,493,Rabistream 20mg Tablet,43.75,20,2026-11-13,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,494,Rizicep 50mg Dry Syrup,75,10,2028-10-03,15,Demo Supplier A,NOT PROVIDED,30
+Injection,495,Roczid 250mg Injection,99,52,2027-10-08,10,Demo Supplier B,NOT PROVIDED,250
+Tablet,496,Riviflox 200mg Tablet,45,198,2027-02-17,30,Demo Supplier C,NOT PROVIDED,10
+Injection,497,Radidec 25 Injection,78,66,2028-06-15,10,Demo Supplier A,NOT PROVIDED,25
+Tablet,498,Sobisis Forte 1000mg Tablet,64,195,2027-11-19,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,499,Serrawin 10mg Tablet,53,146,2027-05-08,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,500,Soliv Syrup,70,108,2027-04-09,15,Demo Supplier A,NOT PROVIDED,200
+Tablet,501,Sancold Tablet,37,180,2026-08-07,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,502,Sirolon 8mg Tablet,58,53,2026-11-09,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,503,Sedoril Plus Syrup,53.68,6,2026-11-17,15,Demo Supplier A,NOT PROVIDED,100
+Injection,504,Spasmokem D 40mg Injection,20,8,2027-03-14,10,Demo Supplier B,NOT PROVIDED,40
+Tablet,505,Serly 50mg Tablet,52,189,2028-08-31,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,506,S.R.B. 20mg Tablet,37,142,2028-02-28,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,507,Sardinil P Syrup,40,61,2027-05-08,15,Demo Supplier B,NOT PROVIDED,60
+Tablet,508,Sarflok 200mg Tablet,55,136,2027-03-02,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,509,SI Fixim XL Kid Tablet,52,170,2027-10-26,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,510,Superb 50mg Syrup,50,62,2027-10-05,15,Demo Supplier B,NOT PROVIDED,30
+Tablet,511,Sypam 0.5mg Tablet,28,105,2026-10-18,30,Demo Supplier C,NOT PROVIDED,10
+Injection,512,Sinclar Injection,1100,76,2026-11-20,10,Demo Supplier A,NOT PROVIDED,500
+Tablet,513,Sodoxim-CV Tablet,198,6,2026-11-13,30,Demo Supplier B,NOT PROVIDED,6
+Syrup,514,Senpod DS 100mg Dry Syrup,124,10,2027-01-19,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,515,Snapace-AP Tablet,45,135,2028-02-17,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,516,Silcet 10mg Tablet,49,216,2027-01-20,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,517,Salvadol P Syrup,50,41,2027-02-17,15,Demo Supplier C,NOT PROVIDED,60
+Injection,518,Supernac 25mg Injection,19,50,2027-09-02,10,Demo Supplier A,NOT PROVIDED,25
+Tablet,519,Serratech 10mg Tablet,50,174,2027-12-06,30,Demo Supplier B,NOT PROVIDED,10
+Injection,520,Scotil 1500mg Injection,225,36,2028-08-25,10,Demo Supplier C,NOT PROVIDED,1500
+Syrup,521,Sectocef 50mg Dry Syrup,45.69,20,2026-10-06,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,522,Suncip-TZ 500mg/600mg Tablet,66,95,2026-11-22,30,Demo Supplier B,NOT PROVIDED,10
+Injection,523,Slofenac AQ 75mg Injection,19,6,2026-10-31,10,Demo Supplier C,NOT PROVIDED,75
+Tablet,524,Smidol 650mg Tablet,10,10,2028-06-12,30,Demo Supplier A,NOT PROVIDED,10
+Injection,525,Stagnat 1000mg Injection,59,30,2028-04-16,10,Demo Supplier B,NOT PROVIDED,1000
+Syrup,526,Selpodox 50mg Syrup,65,91,2027-01-18,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,527,Tide 20 Tablet,105.95,239,2027-11-22,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,528,Taxfax 200mg Tablet,97.55,205,2026-12-18,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,529,Torlip 20mg Tablet,126,160,2027-06-03,30,Demo Supplier C,NOT PROVIDED,10
+Injection,530,TG 50mg Injection,3280,79,2027-09-01,10,Demo Supplier A,NOT PROVIDED,50
+Tablet,531,Terelate AD 40mg/5mg Tablet,105,204,2026-09-18,30,Demo Supplier B,NOT PROVIDED,15
+Syrup,532,Tox O 100mg/5ml Dry Syrup,59,75,2026-11-02,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,533,Tamsiflo D 0.4mg/0.5mg Tablet,262.8,13,2026-11-19,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,534,Thyromed 100mcg Tablet,133,22,2028-10-15,30,Demo Supplier B,NOT PROVIDED,100
+Tablet,535,Trueflex-D Tablet,136,51,2027-09-11,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,536,TG Hex Syrup,72,75,2028-09-29,15,Demo Supplier A,NOT PROVIDED,100
+Injection,537,Trenacare 500mg Injection,73.6,40,2027-07-01,10,Demo Supplier B,NOT PROVIDED,500
+Tablet,538,Telodil AM Tablet,58,113,2027-10-13,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,539,Temsi 20mg Tablet,36,170,2028-07-24,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,540,Teliq 40mg Tablet,69.33,94,2028-07-25,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,541,T Clav Syrup,78,111,2026-08-16,15,Demo Supplier C,NOT PROVIDED,30
+Injection,542,Tragon Injection,14.95,65,2026-10-31,10,Demo Supplier A,NOT PROVIDED,2
+Tablet,543,Tezelon Tablet,168,7,2026-11-21,30,Demo Supplier B,NOT PROVIDED,6
+Tablet,544,Tolestat 150mg Tablet,107.5,27,2027-12-14,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,545,Telkris 40mg Tablet,59.95,62,2028-01-23,30,Demo Supplier A,NOT PROVIDED,10
+Injection,546,Thinerve Injection,45,24,2027-03-15,10,Demo Supplier B,NOT PROVIDED,100
+Syrup,547,Topfen P Syrup,49,90,2027-08-07,15,Demo Supplier C,NOT PROVIDED,60
+Tablet,548,Telmi 4 U 40mg Tablet,76.18,130,2027-04-15,30,Demo Supplier A,NOT PROVIDED,10
+Injection,549,Trexo 500mg Injection,75,43,2028-07-11,10,Demo Supplier B,NOT PROVIDED,500
+Tablet,550,Tymocil CV Tablet,100,91,2027-08-05,30,Demo Supplier C,NOT PROVIDED,6
+Injection,551,Trinmol 100mg Injection,26,10,2026-10-07,10,Demo Supplier A,NOT PROVIDED,100
+Tablet,552,Trafec 37.5mg/325mg Tablet,55,87,2026-11-19,30,Demo Supplier B,NOT PROVIDED,10
+Injection,553,Tramared 50mg Injection,23.98,5,2026-11-26,10,Demo Supplier C,NOT PROVIDED,50
+Syrup,554,Tuslo 100mg/ml Syrup,25,3,2028-06-04,15,Demo Supplier A,NOT PROVIDED,15
+Tablet,555,Ultimax 40 Tablet,75,62,2026-12-22,30,Demo Supplier B,NOT PROVIDED,10
+Tablet,556,Unizuva 5mg Tablet,60,136,2028-01-22,30,Demo Supplier C,NOT PROVIDED,10
+Injection,557,Ultracort 100mg Injection,57.46,64,2027-12-03,10,Demo Supplier A,NOT PROVIDED,100
+Tablet,558,Uvaline 500mg Tablet,545,111,2027-04-15,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,559,Ulclav 200mg/28.5mg Dry Syrup,45,103,2028-03-15,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,560,Venusmin 150 Tablet,115.03,144,2028-07-07,30,Demo Supplier A,NOT PROVIDED,10
+Injection,561,Veloz 20mg Injection,111.15,20,2026-09-22,10,Demo Supplier B,NOT PROVIDED,20
+Tablet,562,Vomna F Tablet,47,109,2026-11-16,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,563,V-Clav LB Tablet,220,29,2026-10-30,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,564,Vicon 200mg/5ml Syrup,47,11,2028-05-04,15,Demo Supplier B,NOT PROVIDED,15
+Tablet,565,Vildazone M 1000mg/50mg Tablet,199,98,2027-04-05,30,Demo Supplier C,NOT PROVIDED,15
+Tablet,566,Venticet LC 5mg/10mg Tablet,75,104,2027-07-24,30,Demo Supplier A,NOT PROVIDED,10
+Injection,567,Vomirin Injection,17,46,2028-01-10,10,Demo Supplier B,NOT PROVIDED,4
+Tablet,568,Vrox 250mg Tablet,160,179,2028-05-13,30,Demo Supplier C,NOT PROVIDED,5
+Syrup,569,Veeflox DS 200mg Syrup,65,53,2027-12-09,15,Demo Supplier A,NOT PROVIDED,60
+Tablet,570,V Gavir 450mg Tablet,1818,44,2028-08-05,30,Demo Supplier B,NOT PROVIDED,4
+Injection,571,Valitop-IV Injection,48.79,72,2026-09-18,10,Demo Supplier C,NOT PROVIDED,40
+Syrup,572,Vomicap 2mg Syrup,32,17,2026-11-23,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,573,Vosafe M 500 mg/0.2 mg Tablet,58,9,2026-11-01,30,Demo Supplier B,NOT PROVIDED,10
+Injection,574,Vomigon 2mg Injection,21,7,2027-05-09,10,Demo Supplier C,NOT PROVIDED,2
+Injection,575,Ventogest 250mg Injection,80,15,2028-09-14,10,Demo Supplier A,NOT PROVIDED,250
+Tablet,576,Welmox 500mg Tablet,60,198,2027-01-28,30,Demo Supplier B,NOT PROVIDED,10
+Syrup,577,Welkoff-AF Syrup,75,52,2027-06-19,15,Demo Supplier C,NOT PROVIDED,60
+Tablet,578,Winten 25mg Tablet,99,66,2028-03-07,30,Demo Supplier A,NOT PROVIDED,14
+Injection,579,Wyclida 300mg Injection,120,60,2027-05-06,10,Demo Supplier B,NOT PROVIDED,300
+Syrup,580,XL Mont Syrup,70,18,2028-08-04,15,Demo Supplier C,NOT PROVIDED,60
+Tablet,581,Xeeline 600mg Tablet,280,142,2026-10-20,30,Demo Supplier A,NOT PROVIDED,10
+Tablet,582,Xklot Tablet,35,183,2026-11-12,30,Demo Supplier B,NOT PROVIDED,10
+Injection,583,Xxone 500mg Injection,43.9,8,2026-11-16,10,Demo Supplier C,NOT PROVIDED,500
+Syrup,584,Ximenov 50 Dry Syrup,49.05,3,2027-10-27,15,Demo Supplier A,NOT PROVIDED,30
+Tablet,585,Zucapride 10mg Tablet,193,141,2027-03-10,30,Demo Supplier B,NOT PROVIDED,15
+Tablet,586,Zambri 5mg Tablet,1450,59,2027-01-29,30,Demo Supplier C,NOT PROVIDED,10
+Syrup,587,Zenkuf Syrup,55,67,2027-12-16,15,Demo Supplier A,NOT PROVIDED,100
+Tablet,588,Zilee 250mg Tablet,42.95,130,2028-01-13,30,Demo Supplier B,NOT PROVIDED,10
+Injection,589,Zolenic Injection,2912,74,2027-05-18,10,Demo Supplier C,NOT PROVIDED,4
+Tablet,590,Zido D 15mg/20mg Tablet,43,63,2028-05-01,30,Demo Supplier A,NOT PROVIDED,10
+Syrup,591,Zafkof Syrup,68,110,2026-08-01,15,Demo Supplier B,NOT PROVIDED,100
+Tablet,592,Zetaglim 1mg Tablet,36.5,35,2026-11-19,30,Demo Supplier C,NOT PROVIDED,10
+Tablet,593,Zmont FX 10mg/120mg Tablet,138,4,2026-11-23,30,Demo Supplier A,NOT PROVIDED,10
+Injection,594,Zoylex 500mg Injection,670,8,2027-03-30,10,Demo Supplier B,NOT PROVIDED,500
+Syrup,595,Zithromin 200mg Dry Syrup,41,47,2027-11-25,15,Demo Supplier C,NOT PROVIDED,15
+Tablet,596,Zolark 0.25mg Tablet,8,223,2027-09-02,30,Demo Supplier A,NOT PROVIDED,10
+Injection,597,Zerinom 1G Injection,1902,34,2027-04-17,10,Demo Supplier B,NOT PROVIDED,1000
+Syrup,598,Zunix 50mg Dry Syrup,49,52,2027-04-07,15,Demo Supplier C,NOT PROVIDED,30
+Tablet,599,Zivex 25mg Tablet,57,35,2027-06-18,30,Demo Supplier A,NOT PROVIDED,10
+Injection,600,ZI Fast 500mg Injection,152,64,2027-10-31,10,Demo Supplier B,NOT PROVIDED,500

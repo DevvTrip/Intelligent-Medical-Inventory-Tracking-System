@@ -1,0 +1,11 @@
+type,id,name,price,qty,expiry,threshold,supplierName,supplierPhone,extra
+Tablet,101,Paracetamol 500,22.5,120,2027-08-31,30,MedPlus Distributors,9810011111,10
+Tablet,102,Amoxicillin 250,45.0,18,2027-04-30,25,HealthCare Supplies,9820022222,10
+Syrup,103,Cough Syrup Benadryl,95.0,40,2026-11-05,15,MedPlus Distributors,9810011111,100
+Injection,104,Tetanus Toxoid,150.0,12,2027-09-15,10,Sun Pharma Depot,9830033333,500
+Tablet,105,Metformin 500,35.0,8,2027-02-28,20,HealthCare Supplies,9820022222,15
+Syrup,106,ORS Solution,40.0,60,2026-08-15,20,Sun Pharma Depot,9830033333,200
+Injection,107,Insulin Injection,320.0,6,2026-11-15,10,MedPlus Distributors,9810011111,100
+Tablet,108,Cetirizine 10,15.0,150,2028-01-31,40,HealthCare Supplies,9820022222,10
+Syrup,109,Antacid Gel,70.0,9,2027-01-31,12,Sun Pharma Depot,9830033333,170
+Injection,110,Dexamethasone,60.0,25,2026-09-10,10,MedPlus Distributors,9810011111,4
