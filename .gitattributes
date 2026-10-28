@@ -1,0 +1,7 @@
+# Keep binary deliverables untouched by line-ending conversion
+*.pdf  binary
+*.docx binary
+*.pptx binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
